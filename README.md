@@ -43,17 +43,12 @@ pip install tensorflow matplotlib numpy pandas scikit-learn
    - If you want to predict your own image, upload it to Colab:
 
 ## Make sure to update the filename in the notebook:
-   ```bash
-   img = load_img('your_image_name.webp', target_size=(32,32))
-   ```
+  
 3. Run All Cells
    - Click Runtime → Run all
    - or press the play button on each cell sequentially.
    - The notebook will:
-      ->Load the CIFAR-10 dataset
-      ->Build and train the CNN with BatchNormalization
-      ->Evaluate the model on test data
-      ->Predict the class of your custom image
-4. View Results
-  - Test accuracy will be printed in the output.
-  - Predicted class of the custom image will be displayed:
+      - Load the CIFAR-10 dataset
+      - Build and train the CNN with BatchNormalization
+      - Evaluate the model on test data
+      - Predict the class of your custom image
